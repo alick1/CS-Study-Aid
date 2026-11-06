@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@media screen {
+  .print-only {
+    display: none !important;
+  }
+}
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+  }
+
+  /* Hide normal web app UI when printing */
+  nav,
+  header,
+  footer,
+  aside,
+  button,
+  .no-print {
+    display: none !important;
+  }
+
+  /* Make sure printable container displays on paper */
+  .print-only {
+    display: block !important;
+    position: static !important;
+    width: 100% !important;
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+}

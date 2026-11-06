@@ -1,0 +1,6 @@
+{
+  "name": "ZimCS4 - Form 4 Computer Science Tutor",
+  "description": "Gamified Form 4 Computer Science tutor and revision platform aligned with the Zimbabwe Heritage-based curriculum (2024-2030), featuring interactive quizzes, offline study materials, teacher dashboards, and badges.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
